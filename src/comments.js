@@ -11,7 +11,7 @@ class Comments extends React.Component{
         </Header>
 
         <Comment>
-          <Comment.Avatar src={hm} />
+          <Comment.Avatar src={hm}/>
           <Comment.Content>
             <Comment.Author as='a'>Sojin</Comment.Author>
             <Comment.Metadata>
@@ -26,7 +26,7 @@ class Comments extends React.Component{
 
         <Form reply>
           <Form.TextArea />
-          <Button content='Add Reply' labelPosition='left' icon='edit' primary />
+          <Button content='Add Reply' labelPosition='center' icon='edit' primary />
         </Form>
       </Comment.Group>)
    }
